@@ -1,27 +1,27 @@
-\documentclass[10pt]{article}
+\documentclass{article}
 
-\input{./preamble.tex}
+\input{./document/preamble.tex}
 
 % Starting Document
 \begin{document}
 
 % Front Matter
 \pagenumbering{roman}
-\input{doc/front_matter/titlepage.tex}
-\input{doc/front_matter/summary.tex}
-\input{doc/front_matter/acknowledgements.tex}
-\input{doc/front_matter/contents_and_lists.tex}
+\input{document/front_matter/titlepage.tex}
+\input{document/front_matter/summary.tex}
+\input{document/front_matter/acknowledgements.tex}
+\input{document/front_matter/contents_and_lists.tex}
 
 % Main Body
 \pagenumbering{arabic}
 \setcounter{page}{1}
-\input{doc/main_body/introduction.tex}
-\input{doc/main_body/the_cost_of_yes.tex}
+\input{document/main_body/introduction.tex}
+\input{document/main_body/the_cost_of_yes.tex}
 
 % Back Matter
 \appendix
-\input{doc/back_matter/slow_pay.tex}
-\input{doc/back_matter/cost_of_saving.tex}
-\input{doc/back_matter/bibliography.tex}
+\input{document/back_matter/slow_pay.tex}
+\input{document/back_matter/cost_of_saving.tex}
+\input{document/back_matter/bibliography.tex}
 
 \end{document}

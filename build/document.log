@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.10)  11 MAR 2022 02:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.10)  11 MAR 2022 02:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -22,7 +22,7 @@ File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (./preamble.tex (/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+) (./document/preamble.tex (/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/tgbonum.sty
 Package: tgbonum 2009/09/27 v1.2 TeX Gyre Bonum as default roman family
@@ -430,15 +430,15 @@ LaTeX Info: Redefining \nameref on input line 6.
 \@outlinefile=\write3
 \openout3 = `document.out'.
 
- (./doc/front_matter/titlepage.tex [1
+ (./document/front_matter/titlepage.tex [1
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./doc/front_matter/summary.texpdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./document/front_matter/summary.texpdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.13 \cleardoublepage
-                      [1]) (./doc/front_matter/acknowledgements.tex [2
+                      [1]) (./document/front_matter/acknowledgements.tex [2
 
-]) (./doc/front_matter/contents_and_lists.tex (/Users/kenny/Documents/dev/build3/foundation/spam-prevention-theory/build/document.toc
+]) (./document/front_matter/contents_and_lists.tex (/Users/kenny/Documents/dev/build3/foundation/spam-prevention-theory/build/document.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -457,19 +457,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [3
 
-]) (./doc/main_body/introduction.tex
-<./doc/img/example.png, id=91, 642.4pt x 481.8pt>
-File: ./doc/img/example.png Graphic file (type png)
-<use ./doc/img/example.png>
-Package pdftex.def Info: ./doc/img/example.png  used on input line 67.
+]) (./document/main_body/introduction.tex
+<./document/img/example.png, id=91, 642.4pt x 481.8pt>
+File: ./document/img/example.png Graphic file (type png)
+<use ./document/img/example.png>
+Package pdftex.def Info: ./document/img/example.png  used on input line 67.
 (pdftex.def)             Requested size: 96.35583pt x 72.26999pt.
-) (./doc/main_body/the_cost_of_yes.tex [1
+) (./document/main_body/the_cost_of_yes.tex [1
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.1 \newpage
-             <./doc/img/example.png>]
+             <./document/img/example.png>]
 LaTeX Font Info:    Trying to load font information for TS1+qbk on input line 80.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/ts1qbk.fd
 File: ts1qbk.fd 2009/09/25 v1.2 font definition file for TS1/qbk
@@ -477,14 +477,14 @@ File: ts1qbk.fd 2009/09/25 v1.2 font definition file for TS1/qbk
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.94 \cleardoublepage
-                     ]) (./doc/back_matter/slow_pay.tex [3]) (./doc/back_matter/cost_of_saving.tex [4]) (./doc/back_matter/bibliography.tex (/Users/kenny/Documents/dev/build3/foundation/spam-prevention-theory/build/document.bbl) [5]) (/Users/kenny/Documents/dev/build3/foundation/spam-prevention-theory/build/document.aux)
+                     ]) (./document/back_matter/slow_pay.tex [3]) (./document/back_matter/cost_of_saving.tex [4]) (./document/back_matter/bibliography.tex (/Users/kenny/Documents/dev/build3/foundation/spam-prevention-theory/build/document.bbl) [5]) (/Users/kenny/Documents/dev/build3/foundation/spam-prevention-theory/build/document.aux)
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: 8F66CADC91A4D16117AA7430A96F3A32;1518.
  ) 
 Here is how much of TeX's memory you used:
- 10543 strings out of 478994
- 163365 string characters out of 5858184
- 586323 words of memory out of 5000000
+ 10544 strings out of 478994
+ 163583 string characters out of 5858184
+ 586321 words of memory out of 5000000
  27793 multiletter control sequences out of 15000+600000
  449592 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
