@@ -1,0 +1,41 @@
+\usepackage[T1]{fontenc} % Font encoding
+\usepackage{tgbonum} % User TEX Grye Bonum font family to typeset the document
+\usepackage[dvipsnames, table]{xcolor} % Additional color names and table formatting
+\usepackage{lipsum} % Add text blocks for setup
+\usepackage[margin=1in,left=1.5in,includefoot]{geometry}
+\usepackage{hyperref} % Allows for clickable references
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=Periwinkle,
+    pdfpagemode=FullScreen,}
+% Columns Preamble
+\usepackage{multicol} % For creating multiple columns in a document.
+\setlength{\columnsep}{.5cm}
+
+% Math preamble
+\usepackage{xfrac} % For slanted franctions
+
+% Graphics preamble
+\usepackage{graphicx} % Allow image imports
+\usepackage{float} % Allow control of float positions
+
+% Bibliography preamble
+\usepackage[numbers, sort&compress]{natbib}
+
+% Bullet preamble
+\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemiii}{$\circ$}
+
+% Header and Footer preamble
+\usepackage{fancyhdr}
+
+% Headers and Footers
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\rowcolors{1}{White}{lightgray}
+\fancyfoot[R]{\thepage\ } % Set page number on the footer to right aligned
+\renewcommand{\headrulewidth}{0pt} % Override lineweight for header
+\renewcommand{\footrulewidth}{0pt} % Override lineweight for header

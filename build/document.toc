@@ -1,0 +1,12 @@
+\contentsline {section}{\hbox to\@tempdima {\hfil }Summary}{i}{section*.1}%
+\contentsline {section}{\hbox to\@tempdima {\hfil }Acknowledgements}{ii}{section*.2}%
+\contentsline {section}{\hbox to\@tempdima {\hfil }List of Figures}{iii}{section*.4}%
+\contentsline {section}{\hbox to\@tempdima {\hfil }List of Tables}{iii}{section*.5}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}The Cost of Yes}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}example math}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Here is a subsection}{2}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}another one}{2}{subsubsection.2.2.1}%
+\contentsline {section}{\numberline {A}Slow Pay}{3}{appendix.A}%
+\contentsline {section}{\numberline {B}How Much Does it Cost to Save Money?}{4}{appendix.B}%
+\contentsline {section}{\hbox to\@tempdima {\hfil }References}{5}{section*.6}%

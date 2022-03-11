@@ -1,0 +1,94 @@
+\newpage
+\section{The Cost of Yes}
+Like in determining the route for a UPS driver, the non-optimal solution is
+often better than the optimal solution which would take excessive
+computational power.
+
+In our world, computational power is the length of time it takes an engineer
+to find the optimal solution. Our ‘free’ services for CA should include that
+which takes the least computational effort to find the first legal solution.
+In order to gain access to more processing power, the requester must pay the
+network fee (ie pre-paid CA services).
+
+While we don’t have a deterministic or stochastic approach yet, it does provide inspiration for ways to implement a calculus for making decisions on handling a request that may be outside of scope.
+
+One way to determine the computational requirements is to evaluate them along with what litigious and economic risk exposure would occur if the request was declined.
+
+If the risk is below a threshold, then we would either outright decline the
+request or send the client anestimate of the effor to be pre-paid through the
+\href{https://www.permitzip.com/ca-requests}{pre-paid CA portal}.
+
+\subsection{example math}
+
+I'm going to write$E=mc^2$
+
+Now I want to have math not in a sentence like this $$E=mc^2$$ you know!
+
+% Using & on either size of equal signs aligns the equations along the equal signs
+\begin{eqnarray}
+    -\frac{\hbar^2}{2m}\frac{d^2\Psi}{dx^2}&=&E\Psi \\
+    d&=&v_{word}t+\frac{1}{2}\cdot at^2 \label{eq:example_one} \\
+    \left(\frac{1}{2}\right)\cdot 2 &=& 1 \\
+\end{eqnarray}
+
+$$\left|-7 \right| = 7$$
+
+\begin{equation}
+    x^{2^y}
+\end{equation}
+
+$$ \sqrt{5} \neg 29 $$
+
+\begin{equation} \label{eq:example_two}
+    \pi \times \sqrt{4}
+\end{equation}
+
+
+The first equation is equation \ref{eq:example_one} so that's it. But also
+there is another equation \ref{eq:example_two} which is so neat.
+
+The introduction is found on page \pageref{sec:intro}.
+
+% A table
+\begin{table}[H]
+    \centering
+    \caption[This is optional caption, without reference]{Local caption, with
+        reference \cite{ricardo}
+    }
+    \begin{tabular}{l c r} % left, center, right aligned headings
+        Date     & In tree? & Raining? \\ \hline
+        April 26 & Yes      & Yes      \\
+        June 7   & Yes      & No       \\
+        June 20  & Yes      & No       \\
+    \end{tabular}
+    \label{tab:example_table}
+
+\end{table}
+
+Table \ref{tab:example_table} logs times things happened.
+
+\subsection{Here is a subsection}
+This is a sub section but it references this other thing!
+
+\subsubsection{another one}
+This is a sub subsection.
+
+This sub subsection is used for containing a list!
+
+% Lists
+\begin{itemize}
+    \item This is a first line
+    \item This is a second one that's longer and text wraps and it's nice super
+          nice i love it super nice!
+          \begin{itemize}
+              \item Another one
+              \item more!
+          \end{itemize}
+    \item More
+    \item Another more!
+          \begin{enumerate}
+              \item Oh
+              \item here go the numbers
+          \end{enumerate}
+\end{itemize}
+\cleardoublepage
